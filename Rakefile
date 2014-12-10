@@ -48,7 +48,7 @@ net:
 	end
 
 	desc "Remove all database files"
-	task :clear do
+	task :clean do
 		sh "rm ./log/mongodb.log; rm -rf ./data/mongodb/*"
 	end
 
