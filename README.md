@@ -1,6 +1,8 @@
 # mongo-rake
 
-A simple mongodb setup for development on localhost
+A simple mongodb setup for development on localhost.
+
+I use mongodb frequently together with ruby projects and I needed some automatisation to handle database setup and running on localhost. This solution is not perfect than but a good start point to further development.
 
 ## Usage
 
@@ -57,15 +59,18 @@ Please edit in the Rakefile if you want to change the configuration.
 
 ### Clean up
 
-Remove all database files, but not backup files
+Remove all database files, but not backup files.
 
 	rake mongoserver:clean
 	
 ## References
 
-- [MongoDB](http://docs.mongodb.org/manual/)
-- [Rake](http://docs.seattlerb.org/rake)
+ [MongoDB](http://docs.mongodb.org/manual/) /
+ [Rake](http://docs.seattlerb.org/rake)
 
+## Hommage à Jim Weirich
+
+[Basic Rake by Jim Weirich](https://www.youtube.com/watch?v=AFPWDzHWjEY) / [Jim Weirich has died](https://twitter.com/evanphx/status/436408348968120320)
 	
 ## License
 
