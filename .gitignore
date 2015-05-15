@@ -2,5 +2,4 @@
 ./log/*
 ./pid/*
 ./data/*
-
-
+.DS_Store*
